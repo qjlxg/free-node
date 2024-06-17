@@ -2149,7 +2149,7 @@ trojan://bd1f1b56-631b-308e-9f48-ec4a1d97aeaf@gg.xn--gmqa02ag57d.com:16895?allow
 trojan://bd1f1b56-631b-308e-9f48-ec4a1d97aeaf@gg.xn--gmqa02ag57d.com:21970?allowInsecure=0&sni=x41.flybar.work#%F0%9F%87%BA%F0%9F%87%B8%20Relay%20%F0%9F%87%BA%F0%9F%87%B8%20United%20States%28ChatGPT%29%2043%20TG%40SSRSUB
 trojan://be8b8f45-a290-4405-8699-ffeb07f3ee24@163.123.192.34:443?allowInsecure=0&sni=16-163-218-240.#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2007%20TG%40SSRSUB
 trojan://be8b8f45-a290-4405-8699-ffeb07f3ee24@163.123.192.36:443?allowInsecure=0&sni=16-163-218-240.#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%28ChatGPT%29%2006%20TG%40SSRSUB
-trojan://://900b3167-1886-43f2-8114-af77727b8f45@awsjp1.gsjc.cfd:443?allowInsecure=1&
+trojan://900b3167-1886-43f2-8114-af77727b8f45@awsjp1.gsjc.cfd:443?allowInsecure=1&
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiODliMzljMi1kYzhkLTQ1OTUtYTRjNS01NGI0ZmJhYjNmYzI@free.themars.top:32102
 trojan://900b3167-1886-43f2-8114-af77727b8f45@awsjp2.gsjc.cfd:443?allowInsecure=1&
 trojan://3c2996d7-f6db-40a2-bd2a-541b11cbf9bc@hk2.downloadvip.cfd:443?allowInsecure=1&sni=download.xn--mes358a9urctx.com
