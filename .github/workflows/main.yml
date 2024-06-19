@@ -2,7 +2,7 @@ name: Free Node Update
 
 on:
   schedule:
-    - cron: "*/229 * * * *" 
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 jobs:
