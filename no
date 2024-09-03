@@ -12,6 +12,11 @@ const useFastGitMirror = isFalsy(process.env.GITHUB_ACTION);
 
 export const publicCollections = [
   
+{
+    name: '97',
+    homepage: '',
+    url: 'https://github.com/qjlxg/genode/raw/main/public/all.txt'
+  },
   {
     name: '98',
     homepage: '',
