@@ -1,10 +1,12 @@
+
+
+
  const isFalsy = (s) => ['0', 'false', 'null'].includes(s) || !s;
 //https://github.com/qjlxg/ss/raw/master/list_raw.txt
-//https://git.homegu.com/qjlxg/Ray/raw/main/config.txt
+//https://github.com/qjlxg/Ray/raw/main/config.txt
 //https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
-//https://git.homegu.com/qjlxg/YBSub/raw/master/sub/share/available
-//https://git.homegu.com/qjlxg/YBSub/raw/master/sub/share/v2
-//https://github.com/qjlxg/genode/raw/main/public/vmess.txt
+//https://github.com/qjlxg/porxy/raw/refs/heads/main/combine.txt
+//
 
 // 在 github-action 中，使用原始链接，否则使用 fastgit 镜像
 const useFastGitMirror = isFalsy(process.env.GITHUB_ACTION);
@@ -16,92 +18,43 @@ export const publicCollections = [
 {
     name: '97',
     homepage: '',
-    url: 'https://git.homegu.com/qjlxg/Ray/raw/main/config.txt'
+    url: 'https://github.com/qjlxg/configs/raw/refs/heads/master/sub/splitted/ss.txt'
   },
-  {
-    name: '98',
-    homepage: '',
-    url: 'https://github.com/qjlxg/ss/raw/master/list_raw.txt'
-  },
-   {
-    name: '99',
-    homepage: '',
-    url: 'https://git.homegu.com/qjlxg/Ray/raw/main/config.txt'
-  },
-  {
-    name: '100',
-    homepage: 'https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes',
-    url: ''
-  },
-   {
-    name: '101',
-    homepage: '',
-    url: 'https://github.com/qjlxg/aggregator/raw/main/data/clash.yaml'
-  },
-  {
-    name: '102',
-    homepage: '',
-    url: 'https://github.com/qjlxg/py/raw/main/data/v2ray.txt'
-  },
-  {
-    name: '103',
-    homepage: '',
-    url: 'https://git.codeproxy.net/qjlxg/free-node/raw/main/public'
-  },
-  {
-    name: '104',
-    homepage: '',
-    url: 'https://clash.llleman.com/clach.yml'
-  },
-   {
-    name: '105',
-    homepage: '',
-    url: 'https://raw.githubusercontent.com/itsyebekhe/HiN/main/Miner/base64'
-  },
-  
-   {
-    name: '106',
-    homepage: '',
-    url: ''
-  },
-  {
-    name: '107',
-    homepage: '',
-    url: ''
-  },
-  {
-    name: '108',
-    homepage: '',
-    url: 'https://links.bocchi2b.top/clash'
-  },
-  {
-    name: '109',
-    homepage: '',
-    url: 'https://git.homegu.com/qjlxg/genode/raw/main/public/ssr.txt'
-  },
-   {
-    name: '110',
-    homepage: '',
-    url: 'https://git.homegu.com/qjlxg/genode/raw/main/public/trojan.txt'
-  },
-  
+   
    {
     name: '111',
     homepage: '',
-    url: ''
+    url: 'https://github.com/qjlxg/v2ray-worker-sub/raw/refs/heads/master/spd/splitted/ss.txt'
   },
-  {
+   {
     name: '112',
     homepage: '',
-    url: ''
+    url: 'https://github.com/qjlxg/configs/raw/refs/heads/master/sub/splitted/trojan.txt'
   },
   {
     name: '113',
     homepage: '',
+    url: 'https://github.com/qjlxg/v2ray-worker-sub/raw/refs/heads/master/spd/splitted/trojan.txt'
+  },
+   {
+    name: '114',
+    homepage: '',
+    url: 'https://github.com/qjlxg/v2ray-worker-sub/raw/refs/heads/master/spd/splitted/vmess.txt'
+  },
+   {
+    name: '115',
+    homepage: '',
+    url: 'https://github.com/qjlxg/configs/raw/refs/heads/master/sub/splitted/vmess.txt'
+  },
+   {
+    name: '116',
+    homepage: '',
     url: ''
   },
-  {
-    name: '114',
+  
+  
+   {
+    name: '1113',
     homepage: '',
     url: ''
   },
@@ -121,19 +74,8 @@ export const privateCollections = [
 
 export const nodeNameFormatter = (raw = '', collection = {}) => {
   const replacements = [
-    ['github.com/freefq - ', ''],
-    ['二爷翻墙网 https://1808.ga', ''],
-    [/-付费推荐(?:.*)$/, ''],
-    ['(油管:破解资源君)', ''],
-    ['(TG频道@kxswa)', ''],
-    ['_油管：全网最强白嫖', ''],
-    ['_来源：kkzui.com', ''],
-    ['(TG频道@kxswa)', ''],
-    ['(youtube阿伟科技)', ''],
-    ['v2rayfree.eu.org - ', ''],
-    [/^adi\|/, ''],
-    [/【付费推荐：(.*?)】/, '']
-  ];
+    ['github.com/freefq - ', '']
+    ];
 
   let name = raw;
 
