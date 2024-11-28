@@ -1,5 +1,6 @@
 
 
+
  const isFalsy = (s) => ['0', 'false', 'null'].includes(s) || !s;
 //https://github.com/qjlxg/ss/raw/master/list_raw.txt
 //https://github.com/qjlxg/Ray/raw/main/config.txt
@@ -38,12 +39,12 @@ export const publicCollections = [
    {
     name: '114',
     homepage: '',
-    url: ''
+    url: 'https://github.com/qjlxg/v2ray-worker-sub/raw/refs/heads/master/spd/splitted/vmess.txt'
   },
    {
     name: '115',
     homepage: '',
-    url: ''
+    url: 'https://github.com/qjlxg/configs/raw/refs/heads/master/sub/splitted/vmess.txt'
   },
    {
     name: '116',
