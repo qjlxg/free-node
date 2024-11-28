@@ -1,7 +1,4 @@
-
-
-
- const isFalsy = (s) => ['0', 'false', 'null'].includes(s) || !s;
+const isFalsy = (s) => ['0', 'false', 'null'].includes(s) || !s;
 //https://github.com/qjlxg/ss/raw/master/list_raw.txt
 //https://github.com/qjlxg/Ray/raw/main/config.txt
 //https://raw.githubusercontent.com/LalatinaHub/Mineral/master/result/nodes
