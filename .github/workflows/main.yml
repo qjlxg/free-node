@@ -27,6 +27,7 @@ jobs:
         git config --global user.email github-actions-bot@github.com
         git config --global user.name "github-actions-bot"
         git add .
+        git commit -am "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')"
         git commit -am "chore: auto update by github-action"
     - name: Push changes
       uses: ad-m/github-push-action@master
