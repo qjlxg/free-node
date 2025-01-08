@@ -35,8 +35,4 @@ jobs:
         branch: main
         github_token: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Delete Workflow Runs
-      uses: anaer/delete-workflow-runs@main
-      with:
-        retain_days: 2
-        keep_minimum_runs: 3
+  
